@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 $url = $_GET['url'];
 $file = file_get_contents('http://image.thum.io/get/'.$url);
 
-echo "VISIT GENERATED!!!";
+echo "+1 VISIT GENERATED!!!";
 ?>
 <html>
   <head>
