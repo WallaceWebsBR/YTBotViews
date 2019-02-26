@@ -21,11 +21,13 @@ curl_close($ch);
 //GET URL AND PROXY TO MAKE REQUEST TO GENERATE SCREENSHOT OF PAGE
 $proxy = $_GET['proxy'];
 $url = $_GET['url'];
-
+if(isset($url, $proxy)){
 proxy($proxy, $url);
 
 //RESULT
 echo "+1 VISIT GENERATED!!!";
+}
+
 ?>
 <html>
   <head>
