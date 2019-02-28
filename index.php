@@ -37,7 +37,7 @@ echo "+1 VISIT GENERATED!!!";
   </body>
       <form action="#" method="GET">
       YoutTube URL: <input type="text" name="url"><br />
-      ProxyURL(IP:PORT) : <input tyoe="text" name="proxy"><br />
+      ProxyURL(IP:PORT) : <input type="text" name="proxy"><br />
       <input type="submit" placeholder="SEND IT">
       </form>
 </body>
